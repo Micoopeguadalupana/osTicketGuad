@@ -1,0 +1,33 @@
+
+h2{
+  margin-bottom: 20px;
+  color: #0A568E;
+}
+/*Estilos para la tabla donde se muestra la data.*/
+tr>th{
+  text-align: center !important;
+  max-width: 100%;
+  font-size: 1em !important;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+#bodyreports tr td{
+  font-size: 1em !important;
+  text-align: center !important;
+}
+
+#btnBuscar input {
+margin-top: 30px;
+}
+
+#bExport{
+  background-image: url('../images/icons/excel.png');
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  background-position: 5% 50%;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
